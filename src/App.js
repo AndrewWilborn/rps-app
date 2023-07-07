@@ -8,12 +8,14 @@ function App() {
 
   const [selectedItem, setSelectedItem] = useState()
   return (
+    <>
     <BrowserRouter>
       <Routes>
         <Route path='/results' element={ <Results selectedItem={selectedItem}/>}/>
         <Route path='/' element={ <Choose setSelectedItem={setSelectedItem} selectedItem={selectedItem}/> } />
       </Routes>
     </BrowserRouter>
+    </>
   );
 }
 

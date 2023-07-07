@@ -1,0 +1,7 @@
+body {
+    background-image: url("../../public/images/meteors.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center right;
+    min-height: 100vh;
+}
