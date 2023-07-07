@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom";
 
-const imgMap = ["/images/rockL.webp", "/images/scissorsL.png", "/images/paper.png"]
+const imgMap = ["/images/rockL.png", "/images/scissorsL.png", "/images/paper.png"]
 
 function getWinMessage(selectedItem, cpuItem){
     if(selectedItem === cpuItem){
